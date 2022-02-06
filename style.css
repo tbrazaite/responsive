@@ -1,0 +1,204 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color: mediumseagreen;
+    font-family: sans-serif;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.flexbox{
+    display: flex;
+    justify-content: center;
+}
+
+.left {
+    max-width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 65%;
+}
+
+.right{
+    max-width: 320px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 35%;
+}
+
+.item {
+    background:white;
+    color: black;
+    font-size: 0.9em;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 185px;
+}
+
+.item1 {
+    background:white;
+    color: black;
+    font-size: 0.9em;
+    margin: 10px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.item2 {
+    background:white;
+    color: black;
+    font-size: 0.9em;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 400px;
+}
+
+.item3 {
+    height: 400px;
+}
+
+.img1{
+    background: url(
+https://s3.amazonaws.com/cms-assets.tutsplus.com/uploads/users/1366/posts/26611/attachment/image-01.png);
+    height: 80%;
+    background-size: cover;
+    background-position: center;
+}
+
+.img2{
+    background: url(https://s3.amazonaws.com/cms-assets.tutsplus.com/uploads/users/1366/posts/26611/attachment/image-02.png);
+    height: 80%;
+    background-size: cover;
+    background-position: center;
+}
+
+.img3{
+    background: url(https://s3.amazonaws.com/cms-assets.tutsplus.com/uploads/users/1366/posts/26611/attachment/image-03.png);  
+    background-size: cover;
+    background-position: center;
+    height: 50%;
+    
+}
+
+/* Tekstas */
+p{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.text{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0;
+    }
+
+.comments{
+    display: flex;
+    justify-content:space-between;
+    font-size: 0.8em;
+    color: grey;
+    padding: 20px;
+    padding-top: 0;
+}
+
+section:hover{
+    cursor: pointer;
+}
+
+
+
+@media (max-width: 900px){
+        main{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .item2 {
+            background:white;
+            color: black;
+            font-size: 0.9em;
+            margin: 10px;
+            height: 600px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .item{
+            height: auto;
+            max-width: 100%;
+            width: 100%;
+        }
+        
+        .img3{
+            height: 115%;
+        }
+
+        .left {
+            max-width: 100%;
+            width: 100%;
+        }   
+
+        .right {
+            max-width: 100%;
+            width: 100%;
+        }
+}
+
+@media (max-width: 514px){
+        .item2 {
+            height: 540px;
+        }    
+        .img3{
+            height: 95%;
+        }
+  
+}
+
+@media (max-width: 408px){
+        .item2 {
+            height: 570px;
+        }    
+        .img3{
+            height: 95%;
+        }
+  
+}
+@media (max-width: 338px){
+        .item2 {
+            height: 590px;
+        }    
+        .img3{
+            height: 95%;
+        }
+}
+
+@media (max-width: 314px){
+        .item2 {
+            height: 610px;
+        }    
+        .img3{
+            height: 95%;
+        }
+}
+
+
+
+
+
+       
+        
+        
+
+
+
+
